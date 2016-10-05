@@ -1,7 +1,8 @@
 # Hello World!
 class HelloTrema < Trema::Controller
   def start(_args)
-    logger.info 'Trema started.'
+    #logger.info 'Trema started.'
+    logger.info "Hello #{self.class.to_s} started"
     #tremaがスタートした時
   end
 
